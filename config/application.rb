@@ -14,6 +14,7 @@ module App
     config.generators do |g|
       g.test_framework :rspec,
                     view_specs: false,
+                    helper: false,
                     routing_specs: false
     end
   end
